@@ -5,7 +5,7 @@ const app = express();
 const port = process.env.PORT || 3000;  // Render provides dynamic port
 
 // Your Render deploy hook URL
-const deployHookUrl = "https://api.render.com/deploy/some-deploy-hook-id";
+const deployHookUrl = "https://api.render.com/deploy/srv-cvs3i5s9c44c739oaf70?key=hQ-0tVwJwGs";
 
 // Serve the HTML page with the restart button at the root route
 app.get("/", (req, res) => {
