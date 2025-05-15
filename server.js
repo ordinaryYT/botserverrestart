@@ -42,7 +42,7 @@ app.post("/restart", async (req, res) => {
     // Trigger the Render deploy hook
     const response = await axios.post(deployHookUrl, {}, {
       headers: {
-        'Authorization': `Bearer rnd_MDCB3izGs5qFQlDXtzMEgX29Iqmn`  // Add your Render API key here
+        'Authorization': `Bearer rnd_8gT7jqIe5NAxxApVjQlnlZ2fDixb`  // Add your Render API key here
       }
     });
 
